@@ -22,6 +22,7 @@ to be able to optimize overall db performance.
 %prep
 %setup -qc
 %{__sed} -i -e '1i#!/usr/bin/php' parser.php
+%{__sed} -i -e 's,php parser.php,%{name},g' parser.php
 
 %install
 rm -rf $RPM_BUILD_ROOT
