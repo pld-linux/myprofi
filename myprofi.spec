@@ -1,4 +1,5 @@
 Summary:	MySQL log analyzer and profiler
+Summary(pl.UTF-8):	Analizator logów MySQL-a i profiler
 Name:		myprofi
 Version:	0.16
 Release:	1
@@ -18,6 +19,12 @@ MySQL log analyzer and profiler. Extracts the most popular queries
 grouping them by their normalized form and shows the statistics for
 each group. Helps developers to recognize most frequently run queries
 to be able to optimize overall db performance.
+
+%description -l pl.UTF-8
+Analizator logów MySQL-a i profiler. Wyciąga najbardziej popularne
+zapytania grupując je w znormalizowanej postaci i wyświetla statystyki
+dla każdej grupy. Pomaga programistom rozpoznać najczęściej wykonywane
+zapytania, aby móc zoptymalizować wydajność bazy danych.
 
 %prep
 %setup -qc
