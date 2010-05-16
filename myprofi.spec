@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/myprofi/MyProfi_%{version}beta.zip
 # Source0-md5:	08ae769dec4a2ba513c7f0cb3ffc4ea1
 URL:		http://myprofi.sourceforge.net/
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	php(pcre)
 Requires:	php-common >= 4:5.0
 BuildArch:	noarch
